@@ -1,0 +1,501 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000; /* black background after video */
+    color: white;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+    height: 60px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.navbar ul a:hover {
+    color: white;
+}
+
+/* ---------------- VIDEO SECTION ---------------- */
+.vedio video {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* ---------------- HERO TEXT ---------------- */
+.features {
+    text-align: center;
+    margin-top: -200px;
+    position: relative;
+    z-index: 2;
+}
+
+.features h1 {
+    font-size: 45px;
+}
+
+.features p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Add shadow on video for readability */
+.vedio::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 80px;
+}
+
+/* ---------------- HOME SECTION ---------------- */
+.home-sec {
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 60px 40px;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.home-sec div {
+    width: 50%;
+}
+
+.home-sec h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top:40px;
+}
+
+.home-sec p {
+    font-size: 20px;
+    margin-top: 12px;
+    line-height: 1.5;
+    text-align:center;
+
+}
+/*.home-left{
+     font-size: 20px;
+    margin-top: 12px;
+    line-height: 1.5;
+}*/
+
+/*Right side big image */
+.home-right img {
+    /*background-image: url("images/home.jpg");*/
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    height: 300px;
+    border-radius: 13px;
+    margin-top: 40px;
+}
+
+.home-right1 img{
+    /*background-image: url("images/home.jpg");*/
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    border-radius: 13px;
+    margin-top: 40px;
+}
+.Home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    background: burlywood;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Home-btn:hover {
+    background: white;
+}
+
+
+
+.image{
+
+    background-size: cover;
+}
+
+/* ---------------- ABOUT SECTION ---------------- */
+
+.about-section {
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+    padding-top: 80px;
+    text-align: center;*/
+    /*margin-top:20px;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    gap: 40px;
+    padding-top: 40px;
+
+}
+/*.about-content{
+    width:50%;
+}*/
+
+.about-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  
+    /*font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top:40px;*/
+}
+
+/*.about-section/*/
+
+.about-content p {
+    font-size: 40px;
+    margin-top: 12px;
+    line-height: 2;
+    width:55%;
+    height:100px;
+
+    /*font-size: 20px;
+    margin-top: 12px;
+    line-height: 1.5;
+    text-align:center;*/
+
+
+}
+
+
+
+.about-right {
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+    /*background-size: cover;
+    background-position: center;
+    width: 45%;
+    height: 300px;
+    border-radius: 13px;
+    margin-top: 40px;*/
+}
+
+.about-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+
+
+}
+
+/* ---------------- SERVICES SECTION ---------------- */
+.services-section {
+    padding: 60px 40px;
+}
+
+.services-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.service-box {
+    background: #111;
+    padding: 22px;
+    width: 45%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-box:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+/* ---------------- CONTACT SECTION ---------------- */
+.contact-section {
+    padding: 60px 40px;
+    margin-bottom: 80px;
+    gap : 20px;
+    text-align:center;
+}
+
+.contact-section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    /*gap: 10px;*/
+}
+
+.contact-details p {
+    margin: 10px 0;
+    font-size: 19px;
+    margin-bottom: 40px;
+   
+}
+
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 770px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        margin-top: 10px;
+    }
+
+    .home-sec {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-sec div, .home-right {
+        width: 100%;
+    }
+
+/* Video Section FULL SCREEN — works on all mobiles */
+.vedio {
+    width: 100%;
+    height: 100vh;        /* full screen height */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;     /* extra parts hide */
+    position: relative;
+}
+
+.vedio video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* video full area fill karega */
+    object-position: center;
+}
+
+
+    .services-container {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 100%;
+        
+    }
+    /*@media (max-width: 768px) {*/
+    .about-section {
+        flex-direction: column;   /* Laptop → row, Mobile → column */
+        text-align: center;       /* Mobile text center */
+    }
+
+    .about-right img {
+        align-items:center;
+        width: 100%;               /* Mobile me full width */
+        max-width: 350px;
+        margin-top: 20px;
+        height:auto;
+    }
+/*}*/
+    .niche button {
+       /*padding: 10px 20px;
+       background: black;
+       color: white;
+       border: 2px solid black;
+       cursor: pointer;*/
+       flex-direction:column;
+
+       width:100px;
+       margin-top:10px;
+       
+}
+
+    .home-sec {
+        flex-direction: column;      /* Image neeche aa jayegi */
+        text-align: center;
+    }
+
+    .home-right img {
+        width: 90%;                  /* Image mobile me screen ke hisab se fit */
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    .home-right1 img {
+        width: 90%;                  /* Image mobile me screen ke hisab se fit */
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+    .Home-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+}
+
+.big-footer {
+  background: #3c3b3b;
+  color: #e7d9b6;
+  padding: 60px 40px 0 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  min-width: 220px;
+  margin-bottom: 30px;
+}
+
+.footer-col h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.footer-col p {
+  margin: 8px 0;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #e7d9b6;
+  opacity: 0.85;
+}
+
+.footer-col a:hover {
+  opacity: 1;
+}
+
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-btn {
+  width: 150px;
+  cursor: pointer;
+}
+
+/* Payment icons row */
+.payment-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 0;
+  border-top: 1px solid #5a5959;
+  margin-top: 20px;
+}
+
+.payment-row img {
+  width: 50px;
+}
+
+
+/* Newsletter section */
+.newsletter {
+  background: burlywood;
+  padding: 20px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #000;
+}
+
+.news-title {
+  font-weight: 700;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+
+.subscribe-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.subscribe-box input {
+  padding: 10px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.niche button{
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  margin top: 
+}
+
