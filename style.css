@@ -122,16 +122,16 @@ body {
     border-radius: 13px;
     margin-top: 40px;
 }
-
+/* 
 .home-right1 img{
     /*background-image: url("images/home.jpg");*/
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     width: 50%;
     height: 300px;
     border-radius: 13px;
     margin-top: 40px;
-}
+} */ */
 .Home-btn {
     display: inline-block;
     margin-top: 20px;
@@ -206,17 +206,17 @@ body {
 
 
 .about-right {
-
+/* 
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
 
-    /*background-size: cover;
+    background-size: cover;
     background-position: center;
     width: 45%;
     height: 300px;
     border-radius: 13px;
-    margin-top: 40px;*/
+    margin-top: 40px;
 }
 
 .about-right img {
@@ -498,4 +498,5 @@ html {
   cursor: pointer;
   margin top: 
 }
+
 
