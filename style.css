@@ -110,6 +110,7 @@ body {
      font-size: 20px;
     margin-top: 12px;
     line-height: 1.5;
+    width:45%;
 }
 
 /*Right side big image */
@@ -117,7 +118,7 @@ body {
     /*background-image: url("images/home.jpg");*/
     background-size: cover;
     background-position: center;
-    width: 55%;
+    width: 50%;
     height: 300px;
     border-radius: 13px;
     margin-top: 40px;
@@ -131,12 +132,12 @@ body {
     height: 300px;
     border-radius: 13px;
     margin-top: 40px;
-} */ */
+} */ 
 .Home-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 22px;
-    background: burlywood;
+    background-color: burlywood;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -193,7 +194,7 @@ body {
     margin-top: 12px;
     line-height: 2;
     width:55%;
-    height:100px;
+    height:350px;
 
     /*font-size: 20px;
     margin-top: 12px;
@@ -214,7 +215,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 45%;
-    height: 300px;
+    /* height: 300px; */
     border-radius: 13px;
     margin-top: 40px;
 }
@@ -500,6 +501,7 @@ html {
   cursor: pointer;
   margin top: 
 }
+
 
 
 
