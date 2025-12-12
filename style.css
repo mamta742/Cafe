@@ -110,18 +110,23 @@ body {
      font-size: 20px;
     margin-top: 12px;
     line-height: 1.5;
-    width:45%;
+    width:50%;
 }
 
+.home-right{
+justify-content:space-between;
+}
 /*Right side big image */
 .home-right img {
     /*background-image: url("images/home.jpg");*/
     background-size: cover;
+    
     background-position: center;
     width: 50%;
     height: 300px;
     border-radius: 13px;
     margin-top: 40px;
+    
 }
 /* 
 .home-right1 img{
@@ -142,6 +147,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    align-item: center;
 }
 
 .Home-btn:hover {
@@ -501,6 +507,7 @@ html {
   cursor: pointer;
   margin top: 
 }
+
 
 
 
