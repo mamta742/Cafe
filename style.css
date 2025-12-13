@@ -80,7 +80,7 @@ body {
 /* ---------------- HOME SECTION ---------------- */
 /* ---------------- HOME SECTION ---------------- */
 .home-sec {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     align-items: center;              /* vertical alignment fix */
     justify-content: space-between;
@@ -103,6 +103,7 @@ body {
     font-size: 20px;
     line-height: 1.6;
     margin-top: 12px;
+    text-align: center;
 }
 
 /* RIGHT IMAGE CONTAINER */
@@ -115,7 +116,7 @@ body {
 /* RIGHT SIDE IMAGE */
 .home-right img {
     width: 100%;                     /* full right column */
-    max-width: 420px;                /* image control */
+    max-width: 500px;                /* image control */
     height: auto;
     border-radius: 13px;
     object-fit: cover;
@@ -484,6 +485,7 @@ html {
   cursor: pointer;
   margin top: 
 }  
+
 
 
 
