@@ -78,88 +78,65 @@ body {
 }
 
 /* ---------------- HOME SECTION ---------------- */
+/* ---------------- HOME SECTION ---------------- */
 .home-sec {
-    margin-top:20px;
+    margin-top: 20px;
     display: flex;
+    align-items: center;              /* vertical alignment fix */
     justify-content: space-between;
-    
-    padding: 60px 40px;
-    gap: 40px;
-    padding-top: 80px;
+    padding: 80px 40px;
+    gap: 50px;
 }
 
-.home-sec div {
+/* LEFT CONTENT */
+.home-left {
     width: 50%;
-}
-
-.home-sec h1 {
-    font-size: 40px;
-    margin-bottom: 40px;
     text-align: center;
-    margin-top:40px;
 }
 
-.home-sec p {
+.home-left h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.home-left p {
     font-size: 20px;
+    line-height: 1.6;
     margin-top: 12px;
-    line-height: 1.5;
-    text-align:center;
-
-}
-.home-left{
-     font-size: 20px;
-    margin-top: 12px;
-    line-height: 1.5;
-    width:50%;
 }
 
-.home-right{
-justify-content:space-between;
+/* RIGHT IMAGE CONTAINER */
+.home-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;        /* image right me push hogi */
 }
-/*Right side big image */
+
+/* RIGHT SIDE IMAGE */
 .home-right img {
-    /*background-image: url("images/home.jpg");*/
-    background-size: cover;
-    
-    background-position: center;
-    width: 50%;
-    height: 300px;
+    width: 100%;                     /* full right column */
+    max-width: 420px;                /* image control */
+    height: auto;
     border-radius: 13px;
-    margin-top: 40px;
-    
+    object-fit: cover;
 }
-/* 
-.home-right1 img{
-    /*background-image: url("images/home.jpg");*/
-    /* background-size: cover;
-    background-position: center;
-    width: 50%;
-    height: 300px;
-    border-radius: 13px;
-    margin-top: 40px;
-} */ 
+
+/* BUTTON */
 .Home-btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 22px;
+    margin-top: 25px;
+    padding: 12px 26px;
     background-color: burlywood;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
-    align-item: center;
+    border-radius: 6px;
 }
 
 .Home-btn:hover {
     background: white;
 }
 
-
-
-.image{
-
-    background-size: cover;
-}
 
 /* ---------------- ABOUT SECTION ---------------- */
 
@@ -507,6 +484,7 @@ html {
   cursor: pointer;
   margin top: 
 }  
+
 
 
 
